@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		F808126C27297CC700575103 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F808126B27297CC700575103 /* ListViewModel.swift */; };
+		F808126E27299D3300575103 /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F808126D27299D3300575103 /* NoItemView.swift */; };
 		F8F1EB8D272851D700DE8479 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1EB8C272851D700DE8479 /* TodoListApp.swift */; };
 		F8F1EB91272851D900DE8479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F1EB90272851D900DE8479 /* Assets.xcassets */; };
 		F8F1EB94272851D900DE8479 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F1EB93272851D900DE8479 /* Preview Assets.xcassets */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		F808126B27297CC700575103 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		F808126D27299D3300575103 /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
 		F8F1EB89272851D700DE8479 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F1EB8C272851D700DE8479 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		F8F1EB90272851D900DE8479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -91,6 +93,7 @@
 				F8F1EB9B272852B300DE8479 /* ListView.swift */,
 				F8F1EB9D2728540300DE8479 /* ListRowView.swift */,
 				F8F1EB9F272855CC00DE8479 /* AddView.swift */,
+				F808126D27299D3300575103 /* NoItemView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8F1EBA32728813900DE8479 /* ItemModel.swift in Sources */,
+				F808126E27299D3300575103 /* NoItemView.swift in Sources */,
 				F8F1EBA0272855CC00DE8479 /* AddView.swift in Sources */,
 				F808126C27297CC700575103 /* ListViewModel.swift in Sources */,
 				F8F1EB8D272851D700DE8479 /* TodoListApp.swift in Sources */,
