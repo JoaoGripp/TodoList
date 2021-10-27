@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F808126C27297CC700575103 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F808126B27297CC700575103 /* ListViewModel.swift */; };
 		F8F1EB8D272851D700DE8479 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1EB8C272851D700DE8479 /* TodoListApp.swift */; };
 		F8F1EB91272851D900DE8479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F1EB90272851D900DE8479 /* Assets.xcassets */; };
 		F8F1EB94272851D900DE8479 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F1EB93272851D900DE8479 /* Preview Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F808126B27297CC700575103 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		F8F1EB89272851D700DE8479 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F1EB8C272851D700DE8479 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		F8F1EB90272851D900DE8479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +40,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F808126A27297C9200575103 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				F808126B27297CC700575103 /* ListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		F8F1EB80272851D700DE8479 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +69,7 @@
 			children = (
 				F8F1EB8C272851D700DE8479 /* TodoListApp.swift */,
 				F8F1EBA12728810C00DE8479 /* Models */,
+				F808126A27297C9200575103 /* ViewModels */,
 				F8F1EB9A2728529C00DE8479 /* Views */,
 				F8F1EB90272851D900DE8479 /* Assets.xcassets */,
 				F8F1EB92272851D900DE8479 /* Preview Content */,
@@ -164,6 +175,7 @@
 			files = (
 				F8F1EBA32728813900DE8479 /* ItemModel.swift in Sources */,
 				F8F1EBA0272855CC00DE8479 /* AddView.swift in Sources */,
+				F808126C27297CC700575103 /* ListViewModel.swift in Sources */,
 				F8F1EB8D272851D700DE8479 /* TodoListApp.swift in Sources */,
 				F8F1EB9C272852B300DE8479 /* ListView.swift in Sources */,
 				F8F1EB9E2728540300DE8479 /* ListRowView.swift in Sources */,
