@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		F808126C27297CC700575103 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F808126B27297CC700575103 /* ListViewModel.swift */; };
 		F808126E27299D3300575103 /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F808126D27299D3300575103 /* NoItemView.swift */; };
+		F80812702729BEB200575103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F808126F2729BEB200575103 /* LaunchScreen.storyboard */; };
 		F8F1EB8D272851D700DE8479 /* TodoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8F1EB8C272851D700DE8479 /* TodoListApp.swift */; };
 		F8F1EB91272851D900DE8479 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F1EB90272851D900DE8479 /* Assets.xcassets */; };
 		F8F1EB94272851D900DE8479 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8F1EB93272851D900DE8479 /* Preview Assets.xcassets */; };
@@ -21,6 +22,7 @@
 /* Begin PBXFileReference section */
 		F808126B27297CC700575103 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		F808126D27299D3300575103 /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
+		F808126F2729BEB200575103 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8F1EB89272851D700DE8479 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8F1EB8C272851D700DE8479 /* TodoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListApp.swift; sourceTree = "<group>"; };
 		F8F1EB90272851D900DE8479 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 				F8F1EB9D2728540300DE8479 /* ListRowView.swift */,
 				F8F1EB9F272855CC00DE8479 /* AddView.swift */,
 				F808126D27299D3300575103 /* NoItemView.swift */,
+				F808126F2729BEB200575103 /* LaunchScreen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -164,6 +167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80812702729BEB200575103 /* LaunchScreen.storyboard in Resources */,
 				F8F1EB94272851D900DE8479 /* Preview Assets.xcassets in Resources */,
 				F8F1EB91272851D900DE8479 /* Assets.xcassets in Resources */,
 			);
@@ -318,7 +322,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -328,7 +332,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = CRG.com.TodoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TodoList;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -348,7 +352,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
@@ -358,7 +362,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = CRG.com.TodoList;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = TodoList;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
